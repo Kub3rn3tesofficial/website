@@ -2,8 +2,8 @@
 layout: blog
 title: "Spotlight on SIG Architecture: Enhancements"
 slug: sig-architecture-enhancements
-canonicalUrl: https://www.kubernetes.dev/blog/2024/09/26/sig-architecture-enhancements
-date: 2024-09-26
+canonicalUrl: https://www.kubernetes.dev/blog/2024/10/09/sig-architecture-enhancements
+date: 2024-10-09
 author: "Frederico Muñoz (SAS Institute)"
 ---
 
