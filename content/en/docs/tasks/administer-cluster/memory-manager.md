@@ -46,6 +46,8 @@ Preceding v1.22, the `kubelet` must be started with the following flag:
 
 in order to enable the Memory Manager feature.
 
+Since v1.32, the memory manager support is GA.
+
 ## How Memory Manager Operates?
 
 The Memory Manager currently offers the guaranteed memory (and hugepages) allocation
