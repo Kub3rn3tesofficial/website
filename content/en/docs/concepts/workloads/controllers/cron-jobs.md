@@ -60,7 +60,7 @@ The `.spec.schedule` field is required. The value of that field follows the [Cro
 # │ │ │ ┌───────────── month (1 - 12)
 # │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday)
 # │ │ │ │ │                                   OR sun, mon, tue, wed, thu, fri, sat
-# │ │ │ │ │ 
+# │ │ │ │ │
 # │ │ │ │ │
 # * * * * *
 ```
@@ -245,6 +245,8 @@ be down for the same period as the previous example (`08:29:00` to `10:21:00`,) 
 
 The CronJob is only responsible for creating Jobs that match its schedule, and
 the Job in turn is responsible for the management of the Pods it represents.
+
+Starting with Kubernetes v1.32 the job created by CronJob controller will have an annotation `batch.kubernetes.io/cronjob-scheduled-timestamp` which will show the original (expected) creation timestamp for a Job. The value of this field is in RFC3339 format.
 
 ## {{% heading "whatsnext" %}}
 
