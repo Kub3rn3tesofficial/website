@@ -252,7 +252,7 @@ the StatefulSet.
 
 ### Pod index label
 
-{{< feature-state for_k8s_version="v1.28" state="beta" >}}
+{{< feature-state for_k8s_version="v1.28" state="stable" >}}
 
 When the StatefulSet {{<glossary_tooltip text="controller" term_id="controller">}} creates a Pod,
 the new Pod is labelled with `apps.kubernetes.io/pod-index`. The value of this label is the ordinal index of
